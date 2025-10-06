@@ -1,0 +1,40 @@
+# ===== Python & Django =====
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+*.log
+*.pot
+*.py.class
+
+# Django stuff:
+local_settings.py
+media/
+staticfiles/
+static/
+.env
+
+# ===== Virtual Environments =====
+venv/
+env/
+.venv/
+ENV/
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== OS Files =====
+.DS_Store
+Thumbs.db
+
+# ===== Migrations =====
+*/migrations/__pycache__/
+*/migrations/*.pyc
+# Keep the initial migration if you want
+# !*/migrations/0001_initial.py
